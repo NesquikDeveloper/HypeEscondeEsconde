@@ -1,0 +1,34 @@
+name: HypeEscondeEsconde
+version: ${project.version}
+main: nesquikdeveloper.escondeesconde.Main
+author: NesquikIDE
+depend: [HypeCommons]
+softdepend: [ProtocolLib, PlaceholderAPI]
+
+commands:
+  escondeesconde:
+    description: Comando principal do plugin
+    aliases: [ee]
+    usage: /escondeesconde
+  
+  entrar:
+    description: Entrar em uma partida
+    usage: /entrar [arena]
+  
+  sair:
+    description: Sair da partida atual
+    usage: /sair
+  
+  iniciar:
+    description: Iniciar partida
+    aliases: [start, inicia, core]
+    usage: /iniciar
+
+permissions:
+  escondeesconde.admin:
+    description: Permite acesso a comandos administrativos
+    default: op
+  
+  escondeesconde.start:
+    description: Permite iniciar partidas
+    default: op

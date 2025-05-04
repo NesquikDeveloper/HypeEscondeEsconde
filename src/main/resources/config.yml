@@ -1,0 +1,27 @@
+# Configurações gerais do plugin EscondeEsconde
+# Desenvolvido por NesquikIDE
+
+# Localização do spawn do lobby
+spawn: null
+
+# Configurações do jogo
+game:
+  min-players: 4
+  max-players: 12
+
+# Configurações de tempo
+time:
+  lobby-countdown: 30
+  start-countdown: 10
+  hide-time: 30
+  game-time: 3000  # 50 minutos em segundos
+
+# Configurações de times
+teams:
+  initial-seekers: 2
+
+# Configurações de recompensas
+rewards:
+  coins-per-kill: 10
+  coins-per-win: 50
+  coins-per-game: 5
